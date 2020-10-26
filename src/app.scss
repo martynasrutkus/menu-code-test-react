@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  font-family: Montserrat, sans-serif;
+}
+
+h1 {
+  margin: 20px 0;
+}
+
+button {
+  cursor: pointer;
+
+  &:disabled {
+    cursor: default;
+    pointer-events: none;
+  }
+}

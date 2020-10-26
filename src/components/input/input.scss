@@ -1,0 +1,23 @@
+.input {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 350px;
+  padding: 10px;
+
+  > div {
+    display: flex;
+
+    > input {
+      margin-left: 10px;
+
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+
+  > span {
+
+  }
+}

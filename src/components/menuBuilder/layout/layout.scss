@@ -1,0 +1,28 @@
+.layout {
+  padding: 40px;
+  min-height: calc(100vh - 176px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &--title {
+    font-size: 22px;
+    font-weight: bold;
+  }
+
+  &__buttons {
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 600px;
+
+    &--diners {
+      justify-content: flex-end;
+    }
+
+    > button {
+      width: 100px;
+    }
+  }
+}

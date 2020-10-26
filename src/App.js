@@ -1,10 +1,20 @@
 import React from 'react';
 import { render } from 'react-dom';
 
-class App extends React.Component {
-    render() {
-        return <h1>Menu Test</h1>;
-    }
-}
+import Header from './components/header/Header';
+import Footer from './components/footer/Footer';
+import MenuBuilder from './components/menuBuilder/MenuBuilder';
+import MenuContextProvider from './context/MenuContext';
 
-render(<App />, document.getElementById('root'));
+import './app.scss';
+
+render(
+  <React.StrictMode>
+    <Header />
+    <MenuContextProvider>
+        <MenuBuilder />
+    </MenuContextProvider>
+    <Footer />
+  </React.StrictMode>,
+  document.getElementById('root'),
+);

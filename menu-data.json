@@ -18,7 +18,8 @@
         {
             "id": 4,
             "name": "Prawn cocktail",
-            "price": 6
+            "price": 6,
+            "exclude": [7]
         }
     ],
     "mains": [
@@ -35,7 +36,8 @@
         {
             "id": 7,
             "name": "Salmon fillet",
-            "price": 14
+            "price": 14,
+            "exclude": [4]
         },
         {
             "id": 8,
@@ -57,7 +59,8 @@
         {
             "id": 11,
             "name": "Cheesecake",
-            "price": 4
+            "price": 4,
+            "count": 1
         },
         {
             "id": 12,

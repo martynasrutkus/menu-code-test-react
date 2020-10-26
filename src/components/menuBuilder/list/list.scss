@@ -1,0 +1,18 @@
+.list {
+  width: 100%;
+  padding: 10px;
+
+  &--type {
+    margin-bottom: 5px;
+    border-bottom: 1px solid black;
+    font-size: 20px;
+    font-weight: bold;
+    width: fit-content;
+  }
+
+  &__meals {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+}

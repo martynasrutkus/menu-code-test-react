@@ -1,0 +1,24 @@
+.meal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  border: 2px solid black;
+  cursor: pointer;
+  padding: 5px;
+
+  &--disabled {
+    cursor: default;
+    border-color: gray;
+    color: gray;
+  }
+
+  &--selected {
+    border-color: cornflowerblue;
+  }
+
+  &--name {
+    font-weight: bold;
+  }
+}
